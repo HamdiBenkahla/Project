@@ -1,3 +1,32 @@
+$(document).ready(function(){
+  
+$('.vid').hide()
+$('#mama').click(function(){
+    $('#zaza').hide()
+    $('#show').show()
+
+})
+
+$('#home').click(function(){
+    $('#show').hide()
+    $('#zaza').show()
+
+})
+
+$('.Italy').hide()
+$('#Positano').click(function(){
+    $('#zaza').hide()
+    $('#ItalyShow').show()
+
+})
+
+$('#Rome').click(function(){
+    $('#ItalyShow').hide()
+    $('#zaza').show()
+
+})
+
+
 
 
 
@@ -11,15 +40,6 @@ var body = $('body');
 
   body.css('background-image', backgrounds[0]);
 
-$("body").append('<img id ="show" src = "https://ds1.static.rtbf.be/article/image/1248x702/7/6/b/c935fb288726e1d946a731ce48594131-1505206756.jpg">');
-$("#show").hide()
-$('#mama').click(function(){
-    var div = $('<div></div>')
-    div.text('new zealand');
-    $(img).show()
-    div.appendTo(body)
-    
-});
 
 
 
@@ -35,6 +55,7 @@ index = Math.floor(Math.random()*backgrounds.length)
 
   setTimeout(randomize, 3500);
 
+ });
 
 
 

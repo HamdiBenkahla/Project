@@ -1,3 +1,5 @@
+
+
 .item1 { grid-area: header;
 text-align: center;
     color: black;
@@ -8,7 +10,15 @@ text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 3
 }
 .item3 { grid-area: main; }
 .item4 { grid-area: right; }
-.item5 { grid-area: footer ; }
+.item5 { grid-area: footer ; 
+text-align: center;
+ color: white;
+   font-size: 40px;
+    font-style: italic;
+    transition: 0.3s;
+          text-shadow: 0 0 3px #FF0000;
+       font-weight: bold;
+}
 
 
 a {
@@ -42,12 +52,26 @@ body{
   padding: 0;
 }
 
+p.ex2:hover, p.ex2:active {color: red;}
+
+
 .vid{
   color: white;
    font-size: 30px;
     font-style: italic;
     transition: 0.3s;
+          text-shadow: 0 0 3px #FF0000;
+       font-weight: bold;
+
+}
+
+.Italy{
+ color: white;
+   font-size: 30px;
+    font-style: italic;
+    transition: 0.3s;
     text-shadow: 2px 2px 4px #000000;
+
 }
 
 
@@ -70,4 +94,11 @@ li {
 .grid-container > div {
   text-align: center;
   font-size: 30px;
+}
+
+#agency{
+  text-align: center;
+    color: black;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
 }
