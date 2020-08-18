@@ -1,0 +1,25 @@
+
+
+h1 {
+text-align: center;
+    color: black;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
+
+.img{
+	text-align: center;
+}
+
+.vid{
+	color: white;
+	 font-size: 30px;
+	  font-style: italic;
+	  transition: 0.3s;
+	  text-shadow: 2px 2px 4px #000000;
+}
+
+body{
+	background-image: url("https://s25910.pcdn.co/wp-content/uploads/2019/06/Things-to-Do-in-Queenstown-New-Zealand.jpg");
+	  background-size: cover;
+  background-repeat: no-repeat;
+}

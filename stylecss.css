@@ -1,19 +1,61 @@
 .item1 { grid-area: header;
 text-align: center;
-    color: blue;
+    color: black;
 text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
 }
-.item2 { grid-area: menu; }
+.item2 { grid-area: menu; 
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
 .item3 { grid-area: main; }
 .item4 { grid-area: right; }
 .item5 { grid-area: footer ; }
 
 
-
-body{
-  background-size: cover ;
+a {
+  color: white;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color : black;
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#myList {
+  list-style: none; 
+  padding: 0;
+}
+
+.vid{
+  color: white;
+   font-size: 30px;
+    font-style: italic;
+    transition: 0.3s;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+
+li { 
+   margin: 50px;
+  color : white;
+  text-shadow: 2px 2px 4px #000000;
+}
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -26,7 +68,6 @@ body{
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   font-size: 30px;
 }
